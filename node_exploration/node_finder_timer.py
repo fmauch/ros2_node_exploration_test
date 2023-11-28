@@ -29,11 +29,9 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 
-import time
-
 import rclpy
-from rclpy.duration import Duration
 from rclpy.node import Node
+
 
 class NodeFinder(Node):
     def __init__(self):
