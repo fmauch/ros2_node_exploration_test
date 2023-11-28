@@ -25,6 +25,9 @@ setup(
     license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['node_finder = node_exploration.node_finder:main'],
+        'console_scripts': [
+            'node_finder = node_exploration.node_finder:main',
+            'node_finder_timer = node_exploration.node_finder_timer:main'
+        ],
     },
 )
